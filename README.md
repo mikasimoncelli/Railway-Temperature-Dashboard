@@ -1,11 +1,11 @@
 # 🚂 Railway Temperature Dashboard
 
 ## Overview
-This React application visualizes temperature exceedance data from railway sensors. It processes and displays temperature readings collected from sensors on moving trains over an OpenStreetMap map, helping identify potential maintenance issues along railway tracks. It features functionality for filtering and sorting the csv data. It also has added UI elements such as a dark mode toggle and an option to expand and collapse the map view.
+This React application visualizes temperature exceedance data from railway sensors. It processes and displays temperature readings collected from sensors on moving trains over a React-Leaflet map, helping identify potential maintenance issues along railway tracks. It features functionality for filtering and sorting the csv data. It also has added UI elements such as a dark mode toggle and an option to expand and collapse the map view.
 
 ## ✨ Features
 
-- **Interactive Map** - Visualizes temperature data over OpenStreetMap
+- **Interactive Map** - Visualizes temperature data using React-Leaflet with OpenStreetMap 
 - **Filtering** - Filter by date, temperature, and severity
 - **Dark Mode** - Reduces eye strain
 - **Responsive Design** - Optimized for desktop and tablet
