@@ -290,7 +290,7 @@ const TemperatureDashboard = () => {
           color: '#ffffff',
         }}
       >
-        <h1 style={{ margin: 0 }}>Railway Temperature Exceedance</h1>
+        <h2 style={{ margin: 0 }}>Railway Temperature Exceedance</h2>
         <div>
           {/* Button to expand or minimize the map */}
           <button
