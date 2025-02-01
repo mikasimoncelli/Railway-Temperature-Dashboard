@@ -338,6 +338,7 @@ const TemperatureDashboard = () => {
           gap: '20px',
         }}
       >
+        
         {/* Controls Box */}
         <div
           style={{
@@ -350,6 +351,10 @@ const TemperatureDashboard = () => {
             gap: '20px',
           }}
         >
+        <h4 style={{ fontWeight: 'normal', marginBottom: '2px', marginTop: '2px', color: isDarkMode ? '#ffffff' : '#000000' }}>
+        London South Eastern Mainline : <strong>Hungerford Bridge</strong> - <strong>Orpington</strong>
+        </h4>
+        
           {/* Map Section */}
           <div
             style={{
@@ -627,6 +632,7 @@ const TemperatureDashboard = () => {
                 paddingTop: '10px',
               }}
             >
+              
               {/* Table Headers */}
               <div
                 style={{
@@ -726,8 +732,12 @@ const TemperatureDashboard = () => {
             </div>
           </div>
 
-          {/* Footer - Moved outside the Controls Box */}
-          <div
+
+        </div>
+        
+      </div>
+                {/* Footer - Moved outside the Controls Box */}
+                <div
             style={{
               backgroundColor: '#60348c',
               padding: '10px',
@@ -735,10 +745,8 @@ const TemperatureDashboard = () => {
               color: '#ffffff',
             }}
           >
-            <p>&copy; 2025 Railway Temperature Exceedance.</p>
+            <p>&copy; Railway Temperature Exceedance.</p>
           </div>
-        </div>
-      </div>
     </div>
   );
 };
