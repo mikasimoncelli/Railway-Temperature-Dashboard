@@ -3,7 +3,7 @@
 ## Overview
 This React application visualizes temperature exceedance data from railway sensors. It processes and displays temperature readings collected from sensors on moving trains over a React-Leaflet map, helping identify potential maintenance issues along railway tracks. It features functionality for filtering and sorting the csv data. It also has added UI elements such as a dark mode toggle and an option to expand and collapse the map view.
 
-## ✨ Features
+## Features
 
 - **Interactive Map** - Visualizes temperature data using React-Leaflet with OpenStreetMap 
 - **Filtering** - Filter by date, temperature, and severity
@@ -33,7 +33,7 @@ npm start
 
 Head to `http://localhost:3000` and you should see the dashboard in action.
 
-## 📊 About the Data
+## About the Data
 
 The dashboard works with temperature readings from railway sensors. Each reading includes:
 - Timestamp
@@ -47,7 +47,7 @@ The app automatically categorizes temperatures into three severity levels:
 - 🟡 Medium (55-69°C)
 - 🟢 Low (below 55°C)
 
-## 💡 Pro Tips
+## Tips
 
 - Use the search bar to quickly filter by any field
 - Click column headers to sort the data
@@ -55,7 +55,7 @@ The app automatically categorizes temperatures into three severity levels:
 - Expand the map when you need a better geographical overview
 - Use the temperature range slider to focus on specific thresholds
 
-## 🏗️ Key Files
+## Key Files
 
 ```
 temperature-dashboard/
